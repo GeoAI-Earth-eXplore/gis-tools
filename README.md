@@ -10,6 +10,7 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 - [Earth Observation and Cloud Platforms](#earth-observation-and-cloud-platforms)
 - [Spatial Analysis and Statistics](#spatial-analysis-and-statistics)
 - [Web Mapping and Development](#web-mapping-and-development)
+- [OpenStreetMap and Crowdsourced Geospatial Data](#openstreetmap-and-crowdsourced-geospatial-data)
 - [Data Catalogs and Geospatial Portals](#data-catalogs-and-geospatial-portals)
 - [Cartography and Visualization](#cartography-and-visualization)
 - [GIS Extensions and Integration](#gis-extensions-and-integration)
@@ -42,7 +43,7 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 
 | Resource | Description | Organization | Focus | Access |
 |---|---|---|---|---|
-| [GeoDa](https://geodacenter.github.io/documentation.html) | Software for exploratory spatial data analysis, spatial autocorrelation, clustering, and spatial econometrics. | GeoDa Center | Spatial statistics | Open source |
+| [GeoDa](https://geodacenter.github.io/) | Software for exploratory spatial data analysis, spatial autocorrelation, clustering, and spatial econometrics. | GeoDa Center | Spatial statistics | Open source |
 | [Bivariate Spatial Association](https://pro.arcgis.com/en/pro-app/3.4/tool-reference/spatial-statistics/bivariate-spatial-association.htm) | ArcGIS Pro spatial statistics tool for examining local relationships between two variables. | Esri | Spatial association | ArcGIS Pro |
 | [Indicators of Spatial Association](https://en.wikipedia.org/wiki/Indicators_of_spatial_association) | Overview of methods used to quantify global and local spatial association. | Reference resource | Spatial statistics | Open |
 
@@ -58,6 +59,16 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 
 ---
 
+## OpenStreetMap and Crowdsourced Geospatial Data
+
+| Resource | Description | Organization | Focus | Access |
+|---|---|---|---|---|
+| [OpenStreetMap Wiki](https://wiki.openstreetmap.org/wiki/Main_Page) | Community documentation for OpenStreetMap tags, mapping conventions, data structures, and tools. | OpenStreetMap Community | OSM documentation | Open |
+| [Taginfo](https://taginfo.openstreetmap.org/) | Statistics and usage information for tags used throughout OpenStreetMap. | OpenStreetMap Community | OSM tags / metadata | Open |
+| [Overpass Turbo](https://overpass-turbo.eu/) | Interactive web interface for querying OpenStreetMap data using the Overpass API. | OpenStreetMap Community | OSM querying | Open |
+
+---
+
 ## Data Catalogs and Geospatial Portals
 
 | Resource | Description | Organization | Focus | Access |
@@ -65,7 +76,6 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 | [FGDL Map Viewer](https://fgdl.org/fgdlmap/) | Interactive viewer for accessing geospatial data from the Florida Geographic Data Library. | University of Florida GeoPlan Center | Florida geospatial data | Open |
 | [Florida Geographic Information Office LiDAR Resources](https://www.floridagio.gov/pages/lidar-resources) | Portal for locating LiDAR and elevation resources available across Florida. | Florida Geographic Information Office | LiDAR / elevation data | Open |
 | [USDA Forest Service Geodata Clearinghouse](https://data.fs.usda.gov/geodata/rastergateway/) | Portal for accessing Forest Service raster and geospatial datasets. | USDA Forest Service | Forestry / geospatial data | Open |
-| [GEE Community Catalog](https://gee-community-catalog.org/projects/) | Community-maintained catalog of Earth observation and geospatial datasets available for Google Earth Engine. | Community project | Earth observation data discovery | Open |
 
 ---
 
