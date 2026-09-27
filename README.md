@@ -14,7 +14,8 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 - [Data Catalogs and Geospatial Portals](#data-catalogs-and-geospatial-portals)
 - [Cartography and Visualization](#cartography-and-visualization)
 - [GIS Extensions and Integration](#gis-extensions-and-integration)
-
+- [Python Geospatial and Scientific Computing](#python-geospatial-and-scientific-computing)
+  
 ---
 
 ## Desktop GIS
@@ -93,3 +94,32 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 | Resource | Description | Organization | Focus | Access |
 |---|---|---|---|---|
 | [QGIS MCP Plugin](https://plugins.qgis.org/plugins/qgis_mcp_plugin/) | QGIS plugin supporting Model Context Protocol integration for AI-assisted interaction with GIS workflows. | Community project | GIS / AI integration | Open source |
+
+---
+
+## Python Geospatial and Scientific Computing
+
+| Resource | Description | Organization | Focus | Access |
+|---|---|---|---|---|
+| [pandas](https://pandas.pydata.org/) | Python library for tabular data manipulation, analysis, and dataframe-based workflows. | pandas Project | Tabular data / data analysis | Open source |
+| [NumPy](https://numpy.org/) | Fundamental Python library for numerical computing and multidimensional arrays. | NumPy Project | Numerical computing / arrays | Open source |
+| [Shapely](https://shapely.readthedocs.io/) | Python library for creating, manipulating, and analyzing planar geometric objects. | Shapely Project | Vector geometry | Open source |
+| [GeoPandas](https://geopandas.org/) | Extends pandas with geospatial vector data structures and spatial operations built on libraries such as Shapely. | GeoPandas Project | Geospatial vector analysis | Open source |
+| [Rasterio](https://rasterio.readthedocs.io/) | Python library for reading, writing, and processing geospatial raster datasets using GDAL. | Rasterio Project | Raster processing | Open source |
+| [rasterstats](https://pythonhosted.org/rasterstats/) | Python library for summarizing raster values based on vector geometries and performing zonal statistics. | Community project | Raster / vector statistics | Open source |
+| [H3](https://h3geo.org/) | Hierarchical hexagonal spatial indexing system originally developed by Uber. | H3 Project | Spatial indexing | Open source |
+| [Xarray](https://xarray.dev/) | Python library for labeled multidimensional arrays commonly used with climate, Earth observation, and scientific data. | Xarray Project | Multidimensional data | Open source |
+| [rioxarray](https://corteva.github.io/rioxarray/) | Geospatial extension for Xarray providing rasterio-powered raster and coordinate-reference-system functionality. | Community project | Raster / multidimensional geospatial data | Open source |
+| [h5netcdf](https://h5netcdf.org/) | Python interface for working with netCDF4 data using HDF5 through h5py. | Community project | NetCDF / HDF5 | Open source |
+| [geopy](https://geopy.readthedocs.io/) | Python library providing access to geocoding services and geographic distance calculations. | Community project | Geocoding / geographic distance | Open source |
+| [pyproj](https://pyproj4.github.io/pyproj/) | Python interface to PROJ for coordinate transformations and map projections. | pyproj / PROJ Community | CRS / coordinate transformation | Open source |
+| [Cartopy](https://scitools.org.uk/cartopy/) | Python library for cartographic projections, geographic data processing, and map visualization. | SciTools | Cartography / map projections | Open source |
+| [Matplotlib](https://matplotlib.org/) | Core Python plotting library widely used for scientific and geospatial visualization. | Matplotlib Project | Visualization | Open source |
+| [NetworkX](https://networkx.org/) | Python library for creating, analyzing, and modeling complex networks and graphs. | NetworkX Project | Network analysis | Open source |
+| [OSMnx](https://osmnx.readthedocs.io/) | Python package for downloading, modeling, analyzing, and visualizing street networks and other OpenStreetMap features. | OSMnx Project | OpenStreetMap / network analysis | Open source |
+| [libpysal](https://pysal.org/libpysal/) | Core PySAL library providing spatial weights, computational geometry, and foundational spatial-analysis functionality. | PySAL | Spatial analysis | Open source |
+| [esda](https://pysal.org/esda/) | PySAL package for exploratory spatial data analysis, including spatial autocorrelation and local spatial statistics. | PySAL | Exploratory spatial data analysis | Open source |
+| [spreg](https://pysal.org/spreg/) | PySAL package for spatial regression and spatial econometric models. | PySAL | Spatial regression | Open source |
+| [SciPy](https://scipy.org/) | Scientific computing library providing optimization, interpolation, statistics, linear algebra, and related numerical methods. | SciPy Project | Scientific computing | Open source |
+| [statsmodels](https://www.statsmodels.org/) | Python library for statistical estimation, hypothesis testing, regression, and econometric modeling. | statsmodels Project | Statistical modeling | Open source |
+| [Elapid](https://earth-chris.github.io/elapid/) | Python package supporting species distribution modeling and geospatial machine-learning workflows. | Elapid Project | Species distribution modeling / GeoAI | Open source |
