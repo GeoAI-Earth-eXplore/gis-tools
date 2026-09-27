@@ -77,6 +77,7 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 | [FGDL Map Viewer](https://fgdl.org/fgdlmap/) | Interactive viewer for accessing geospatial data from the Florida Geographic Data Library. | University of Florida GeoPlan Center | Florida geospatial data | Open |
 | [Florida Geographic Information Office LiDAR Resources](https://www.floridagio.gov/pages/lidar-resources) | Portal for locating LiDAR and elevation resources available across Florida. | Florida Geographic Information Office | LiDAR / elevation data | Open |
 | [USDA Forest Service Geodata Clearinghouse](https://data.fs.usda.gov/geodata/rastergateway/) | Portal for accessing Forest Service raster and geospatial datasets. | USDA Forest Service | Forestry / geospatial data | Open |
+| [Google Environmental Insights Explorer](https://insights.sustainability.google/) | Interactive platform providing city- and region-level environmental insights including emissions, solar potential, and tree canopy estimates. | Google | Urban sustainability / environmental geospatial data | Open |
 
 ---
 
