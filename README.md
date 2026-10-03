@@ -25,7 +25,7 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 | [QGIS](https://qgis.org/) | Open-source desktop GIS platform for geospatial analysis, visualization, data editing, and processing. | QGIS Project | Desktop GIS | Open source |
 | [ArcGIS Pro](https://pro.arcgis.com/) | Desktop GIS software for spatial analysis, mapping, remote sensing, 3D visualization, and geoprocessing. | Esri | Desktop GIS | Commercial |
 | [ArcGIS Documentation](https://doc.arcgis.com/en/) | Documentation portal covering ArcGIS software, tools, workflows, and services. | Esri | GIS documentation | Open documentation |
-| [GeoLibre](https://github.com/opengeos/GeoLibre) | Free and open-source cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data across web, desktop, mobile, and Jupyter environments. | opengeos | Cross-platform GIS / geospatial analysis | Open source |
+| [GeoLibre](https://github.com/opengeos/GeoLibre) | Free and open-source cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data across web, desktop, mobile, and Jupyter environments. | Open Geospatial Solutions | Cross-platform GIS / geospatial analysis | Open source |
 
 ---
 
