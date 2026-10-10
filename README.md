@@ -58,6 +58,7 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 | [ArcGIS Maps SDK for JavaScript](https://developers.arcgis.com/javascript/) | JavaScript SDK for building interactive web maps and geospatial applications. | Esri | Web mapping / development | Developer access |
 | [ArcGIS Developer Documentation](https://developers.arcgis.com/) | Developer resources for building applications with ArcGIS APIs, SDKs, and location services. | Esri | Geospatial application development | Developer access |
 | [Leaflet](https://leafletjs.com/) | Lightweight open-source JavaScript library for building interactive web maps. | Open-source community | Web mapping | Open source |
+| [OpenLayers](https://openlayers.org/) | Open-source JavaScript library for displaying and interacting with maps and geospatial data in web applications. | OpenLayers | Web mapping / geospatial development | Open source |
 
 ---
 
