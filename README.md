@@ -14,6 +14,10 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 - [Data Catalogs and Geospatial Portals](#data-catalogs-and-geospatial-portals)
 - [Cartography and Visualization](#cartography-and-visualization)
 - [GIS Extensions and Integration](#gis-extensions-and-integration)
+- [Geospatial Data Formats and I/O](#geospatial-data-formats-and-io)
+- [Spatial Databases and Query Engines](#spatial-databases-and-query-engines)
+- [Web GIS and Geospatial Services](#web-gis-and-geospatial-services)
+- [GPU-Accelerated Geospatial Computing](#gpu-accelerated-geospatial-computing)
 - [Python Geospatial and Scientific Computing](#python-geospatial-and-scientific-computing)
   
 ---
@@ -26,6 +30,7 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 | [ArcGIS Pro](https://pro.arcgis.com/) | Desktop GIS software for spatial analysis, mapping, remote sensing, 3D visualization, and geoprocessing. | Esri | Desktop GIS | Commercial |
 | [ArcGIS Documentation](https://doc.arcgis.com/en/) | Documentation portal covering ArcGIS software, tools, workflows, and services. | Esri | GIS documentation | Open documentation |
 | [GeoLibre](https://github.com/opengeos/GeoLibre) | Free and open-source cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data across web, desktop, mobile, and Jupyter environments. | Open Geospatial Solutions | Cross-platform GIS / geospatial analysis | Open source |
+| [RustGIS](https://github.com/opengeos/RustGIS) | Fast free and open-source GIS written in Rust for mapping, analysis, data editing, geoprocessing, web and desktop use, with scripting and AI-assisted workflows. | Open Geospatial Solutions | Desktop / web GIS | Open source |
 
 ---
 
@@ -48,6 +53,7 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 | [GeoDa](https://geodacenter.github.io/) | Software for exploratory spatial data analysis, spatial autocorrelation, clustering, and spatial econometrics. | GeoDa Center | Spatial statistics | Open source |
 | [Bivariate Spatial Association](https://pro.arcgis.com/en/pro-app/3.4/tool-reference/spatial-statistics/bivariate-spatial-association.htm) | ArcGIS Pro spatial statistics tool for examining local relationships between two variables. | Esri | Spatial association | ArcGIS Pro |
 | [Indicators of Spatial Association](https://en.wikipedia.org/wiki/Indicators_of_spatial_association) | Overview of methods used to quantify global and local spatial association. | Reference resource | Spatial statistics | Open |
+| [PySAL](https://pysal.org/) | Open-source Python ecosystem for spatial analysis, spatial statistics, geocomputation, exploratory spatial data analysis, and spatial econometrics. | PySAL | Spatial analysis / spatial statistics | Open source |
 
 ---
 
@@ -89,6 +95,7 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 |---|---|---|---|---|
 | [ColorBrewer](https://colorbrewer2.org/) | Tool for selecting map color schemes designed for thematic cartography and data visualization. | Cynthia Brewer / contributors | Cartography / color design | Open |
 | [ArcGIS Maps SDK for JavaScript](https://developers.arcgis.com/javascript/) | Framework for creating interactive maps and geospatial visualizations for web applications. | Esri | Web visualization | Developer access |
+| [D3.js](https://github.com/d3/d3) | JavaScript library for creating interactive, data-driven visualizations that can support custom cartographic and geospatial web graphics. | D3 | Interactive visualization / web cartography | Open source |
 
 ---
 
@@ -97,6 +104,53 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 | Resource | Description | Organization | Focus | Access |
 |---|---|---|---|---|
 | [QGIS MCP Plugin](https://plugins.qgis.org/plugins/qgis_mcp_plugin/) | QGIS plugin supporting Model Context Protocol integration for AI-assisted interaction with GIS workflows. | Community project | GIS / AI integration | Open source |
+
+---
+
+## Geospatial Data Formats and I/O
+
+| Resource | Description | Organization | Focus | Access |
+|---|---|---|---|---|
+| [GeoParquet](https://geoparquet.org/) | Open geospatial extension to Apache Parquet for interoperable storage of vector geometries and spatial attributes in columnar data workflows. | GeoParquet / community | Geospatial data format / cloud analytics | Open standard |
+| [GDAL](https://gdal.org/) | Foundational open-source library for reading, writing, transforming, and processing raster and vector geospatial data formats. | OSGeo | Raster / vector data I/O | Open source |
+| [terrio](https://terrio.dev/) | Pure-Rust geospatial data I/O library for reading, writing, converting, and reprojecting raster, vector, and point-cloud formats. | Open Geospatial Solutions | Geospatial data I/O / Rust | Open source |
+| [Pyogrio](https://pyogrio.readthedocs.io/) | Python interface for fast reading and writing of vector geospatial data using GDAL/OGR. | Community project | Vector data I/O | Open source |
+
+---
+
+## Spatial Databases and Query Engines
+
+| Resource | Description | Organization | Focus | Access |
+|---|---|---|---|---|
+| [PostGIS](https://postgis.net/documentation/) | Spatial extension to PostgreSQL providing geometry, geography, raster, indexing, and spatial-query capabilities. | PostGIS | Spatial database | Open source |
+| [SpatiaLite](https://www.gaia-gis.it/gaia-sins/) | Spatial extension to SQLite supporting vector geometries and spatial SQL operations. | SpatiaLite | Embedded spatial database | Open source |
+| [DuckDB Spatial](https://duckdb.org/docs/stable/core_extensions/spatial/overview.html) | DuckDB extension providing spatial data types, spatial functions, and geospatial file access for analytical workflows. | DuckDB | Spatial analytics / SQL | Open source |
+
+---
+
+## Web GIS and Geospatial Services
+
+| Resource | Description | Organization | Focus | Access |
+|---|---|---|---|---|
+| [GeoServer](https://docs.geoserver.org/) | Open-source server for publishing and serving geospatial data using OGC standards and web services. | OSGeo / GeoServer | Geospatial web services | Open source |
+| [geoserver-rest](https://geoserver-rest.readthedocs.io/en/latest/) | Python client for managing GeoServer resources through its REST API. | Community project | GeoServer automation | Open source |
+| [TiTiler](https://developmentseed.org/titiler/) | FastAPI-based toolkit for dynamically serving map tiles from Cloud Optimized GeoTIFFs, STAC assets, multidimensional data, and other raster sources. | Development Seed | Dynamic raster tiling / web GIS | Open source |
+| [tipg](https://developmentseed.org/tipg/) | Dynamic OGC Features API for serving vector data from PostGIS databases. | Development Seed | Vector web services / PostGIS | Open source |
+| [pygeoapi](https://docs.pygeoapi.io/en/stable/) | Python implementation of OGC API standards for exposing geospatial data and processes through web APIs. | pygeoapi / OSGeo | OGC APIs / web GIS | Open source |
+| [MapProxy](https://mapproxy.org/) | Tile proxy and caching server supporting multiple web-map service standards and tile sources. | MapProxy | Tile caching / web mapping | Open source |
+| [MapServer / MapScript](https://mapserver.org/mapscript/) | Web mapping engine and scripting interface for serving and programmatically working with geospatial map services. | MapServer / OSGeo | Web mapping / map services | Open source |
+| [QGIS Server](https://docs.qgis.org/latest/en/docs/server_manual/) | Server component of QGIS for publishing QGIS projects through standards-based geospatial web services. | QGIS Project | GIS web services | Open source |
+| [FastAPI](https://fastapi.tiangolo.com/) | High-performance Python framework frequently used to build geospatial APIs and backend services. | FastAPI | API development | Open source |
+
+---
+
+## GPU-Accelerated Geospatial Computing
+
+| Resource | Description | Organization | Focus | Access |
+|---|---|---|---|---|
+| [NVIDIA cuSpatial](https://docs.rapids.ai/api/cuspatial/stable/) | GPU-accelerated library for spatial and geometric operations on large geospatial datasets. | NVIDIA RAPIDS | GPU geospatial computing | Open source |
+| [NVIDIA cuDF](https://docs.rapids.ai/api/cudf/stable/) | GPU-accelerated dataframe library useful for large tabular and geospatial analytics workflows. | NVIDIA RAPIDS | GPU dataframes | Open source |
+| [CuPy](https://docs.cupy.dev/en/stable/) | NumPy-compatible GPU array library supporting accelerated numerical computation. | CuPy community | GPU numerical computing | Open source |
 
 ---
 
@@ -126,3 +180,4 @@ The goal of this repository is to make useful GIS and geospatial tools easier to
 | [SciPy](https://scipy.org/) | Scientific computing library providing optimization, interpolation, statistics, linear algebra, and related numerical methods. | SciPy Project | Scientific computing | Open source |
 | [statsmodels](https://www.statsmodels.org/) | Python library for statistical estimation, hypothesis testing, regression, and econometric modeling. | statsmodels Project | Statistical modeling | Open source |
 | [Elapid](https://earth-chris.github.io/elapid/) | Python package supporting species distribution modeling and geospatial machine-learning workflows. | Elapid Project | Species distribution modeling / GeoAI | Open source |
+| [GiPy](https://pypi.org/project/gipy-gis/) | Python toolbox for GIS and spatial data processing including geometry operations, coordinate transformations, geospatial file I/O, and visualization. | Community project | GIS / spatial processing | Open source |
